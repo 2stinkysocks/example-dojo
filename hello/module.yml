@@ -2,5 +2,8 @@ name: Hello
 challenges:
   - id: apple
     name: Apple
+    survey:
+      type: thumb
+      prompt: Did the challenge work as expected?
   - id: banana
     name: Banana
