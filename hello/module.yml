@@ -7,3 +7,12 @@ challenges:
       prompt: Did the challenge work as expected?
   - id: banana
     name: Banana
+    survey:
+      type: multiplechoice
+      prompt: Choose an option
+      options: 
+        - option1
+        - option2
+        - option3
+        - option4
+        - option5
