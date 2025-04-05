@@ -2,6 +2,9 @@ name: World
 challenges:
   - id: earth
     name: Earth
+    survey:
+      type: freeform
+      prompt: What did you learn from this challenge?
   - id: mars
     name: Mars
   - id: venus
