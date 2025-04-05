@@ -9,10 +9,9 @@ challenges:
     name: Banana
     survey:
       type: multiplechoice
-      prompt: Choose an option
+      prompt: How did you feel about this challenge?
       options: 
-        - option1
-        - option2
-        - option3
-        - option4
-        - option5
+        - This challenge was very easy
+        - This challenge was a good difficulty
+        - The challenge was too hard
+        - I was completely lost
