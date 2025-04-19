@@ -7,3 +7,6 @@ image: pwncollege/challenge-simple
 modules:
   - id: hello
   - id: world
+survey:
+  type: thumb
+  prompt: Example dojo level survey prompt

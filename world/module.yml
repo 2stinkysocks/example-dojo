@@ -1,4 +1,7 @@
 name: World
+survey:
+  type: thumb
+  prompt: Example module level survey question
 challenges:
   - id: earth
     name: Earth
