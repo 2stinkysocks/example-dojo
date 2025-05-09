@@ -4,11 +4,3 @@ challenges:
     name: Apple
   - id: banana
     name: Banana
-    survey:
-      type: multiplechoice
-      prompt: How did you feel about this challenge?
-      options: 
-        - This challenge was very easy
-        - This challenge was a good difficulty
-        - The challenge was too hard
-        - I was completely lost
