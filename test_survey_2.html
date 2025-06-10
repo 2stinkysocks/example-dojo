@@ -1,0 +1,41 @@
+<style>
+    .survey-prompt {
+        vertical-align: middle;
+        padding: 0px 15px;
+        font-weight: bold;
+    }
+
+    .survey-freeresponse-row {
+        padding: 0px 30px;
+        padding-top: 10px;
+    }
+
+    .survey-text-input {
+        border-color: #6c757d;
+        color: #856404;
+        box-shadow: none !important;
+    }
+
+    .survey-text-input:focus {
+        border-width: 2px;
+        border-color: var(--brand-gold) !important;
+        color: #856404 !important;
+    }
+
+    .survey-submit:hover {
+        background-color: var(--brand-gold);
+        color: #856404;
+        border-color: var(--brand-gold);
+    }
+</style>
+<span class="survey-prompt">Test survey prompt 2</span>
+<div class="row survey-freeresponse-row">
+    <div class="col-md-9 form-group">
+        <input class="form-control survey-text-input" type="text" name="response">
+    </div>
+    <div class="col-md-3 form-group key-submit">
+        <button type="submit" class="btn btn-md btn-outline-secondary float-right w-100 h-100 survey-submit">
+            Submit
+        </button>
+    </div>
+</div>
