@@ -1,0 +1,34 @@
+<style>
+    .survey-prompt {
+        vertical-align: middle;
+        padding: 0px 15px;
+        font-weight: bold;
+    }
+
+   .survey-multiplechoice {
+        display: inline;
+        text-align: left;
+    }
+
+    .survey-multiplechoice div {
+        border: 1px var(--brand-gold);
+        background: none;
+        padding: 6px 15px;
+        cursor: pointer;
+        display: block;
+        user-select: none;
+    }
+
+    .survey-multiplechoice div:hover {
+        transition: all .1s ease-in-out;
+        background-color: var(--brand-gold);
+    }
+</style>
+<span class="survey-prompt">Test survey prompt 3</span>
+<div class="survey-multiplechoice">
+    <div data-form-submit="Option 1">Option 1</div>
+    <div data-form-submit="Option 2">Option 2</div>
+    <div data-form-submit="Option 3">Option 3</div>
+    <div data-form-submit="Option 4">Option 4</div>
+    <div data-form-submit="Option 5">Option 5</div>
+</div>
